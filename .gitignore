@@ -22,9 +22,9 @@ Pyfhel/*.pyc
 **/Makefile
 
 # SEAL
-Pyfhel/SEAL/*
-!Pyfhel/SEAL/.gitkeep
-!Pyfhel/SEAL/config.h
+# Pyfhel/SEAL/*
+# !Pyfhel/SEAL/.gitkeep
+# !Pyfhel/SEAL/config.h
 
 # Pyfhel saved objects
 **.pycon

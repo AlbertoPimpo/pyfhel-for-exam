@@ -7,6 +7,6 @@ RUN sudo apt-get install build-essential libssl-dev libpython3-all-dev gcc-6 g++
 RUN pip3 install Cython
 COPY . Pyfhel
 # RUN git clone --recursive https://github.com/AlbertoPimpo/Pyfhel.git
-WORKDIR "./Pyfhel"
 #RUN git submodule update --init --recursive
-RUN pip3 install .
+RUN pip3 install ./Pyfhel
+RUN sudo rm -r Pyfhel
