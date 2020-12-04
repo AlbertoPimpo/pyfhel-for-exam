@@ -9,6 +9,5 @@ RUN pip3 install Cython
 COPY . Pyfhel
 # RUN git clone --recursive https://github.com/AlbertoPimpo/Pyfhel.git
 #RUN git submodule update --init --recursive
-RUN pip3 install ./Pyfhel/requirements.txt
 RUN pip3 install ./Pyfhel
 RUN sudo rm -r Pyfhel
